@@ -223,6 +223,7 @@ function create_config( )
     "linkpv",
     "echo",
     "get",
+    "calculator",
     "broadcast",
     "plugins",
     "download_media",
@@ -355,6 +356,9 @@ This command will send text to [group_id]
 
 !kickme
 ترک گروه
+
+!calc [عملیات]
+ماشین حساب
 
 !linkpv
 فرستادن لینک در پی وی بات
