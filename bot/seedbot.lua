@@ -218,8 +218,13 @@ function create_config( )
     "owners",
     "arabic_lock",
     "set",
+    "info",
+    "boobs",
+    "linkpv",
+    "echo",
     "get",
     "broadcast",
+    "plugins",
     "download_media",
     "invite",
     "all",
@@ -328,75 +333,90 @@ This command will send text to [group_id]
 ❤️لیست دستورات❤️ :
 
 !kick [username|id]
-You can also do it by reply
+ریمو کردن فرد
 
 !ban [ username|id]
-You can also do it by reply
+تحریم کردن فرد
 
 !unban [id]
-You can also do it by reply
+در اوردن از تحریم
 
 !who
-Members list
+لیست اعضا
 
 !modlist
-Moderators list
+لیست ادمین ها
 
 !promote [username]
-Promote someone
+فرد ادمین گروه شود
 
 !demote [username]
-Demote someone
+در اوردن فرد از ادمینی گروه
 
 !kickme
-Will kick user
+ترک گروه
+
+!linkpv
+فرستادن لینک در پی وی بات
+
+!info
+مشخصات فرد مورد نظر
+
+!boobs
+فرستادن عکس سکسی
 
 !about
-Group description
+درباره گروه
 
 !setphoto
-Set and locks group photo
+اضافه کردن عکس گروه
 
 !setname [name]
-Set group name
+اضافه کردن نام گروه
 
 !rules
-Group rules
+قوانین گروه
 
 !id
-return group id or user id
+برگرداندن ایدی فرد
+
+!echo [کلمه]
+تکرار کلمه مورد نظر
 
 !help
 
 !lock [member|name|bots|leave]	
 Locks [member|name|bots|leaveing] 
+.قفل اعضا.نام.با ها.خروج چ
 
 !unlock [member|name|bots|leave]
 Unlocks [member|name|bots|leaving]
+باز کردن.اعضا.نام.بات ها.خروج.چت عربی
+
 
 !set rules <text>
-Set <text> as rules
+اضافه کردن قانون برای گروه
 
 !set about <text>
-Set <text> as about
+اضافه کردن درباره گروه
 
 !settings
-Returns group settings
+تنظیمات
 
 !newlink
-create/revoke your group link
+ساختن لینک جدید
 
 !link
-returns group link
+لینک گپ
 
 !owner
-returns group owner id
+ادمین اصلی
 
 !setowner [id]
-Will set id as owner
+اضافه کردن به عنوان ادمین اصلی
 
-!setflood [value]
-Set [value] as flood sensitivity
+!setflood [عدد]
+حساسیت به اسپم=کیک
 
 !stats
 Simple message statistics
@@ -407,20 +427,23 @@ Save <text> as [value]
 !get [value]
 Returns text of [value]
 
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+!clean [modlist|rules|about|member]
+پاکسازی:ادمین ها.قوانین.درباره گروه.ممبرها
 
 !res [username]
-returns user id
+برگرداندن ایدی به کد
 "!res @username"
 
 !log
 will return group logs
 
 !banlist
-will return group ban list
+لیست افراد تحریم شده
 
 **U can use both "/" and "!" 
+
+channel:@tiger_channel
+creater:@shayan31323
 
 
 *Only owner and mods can add bots in group
