@@ -224,6 +224,8 @@ function create_config( )
     "echo",
     "get",
     "calculator",
+    "test",
+    "support",
     "broadcast",
     "plugins",
     "download_media",
@@ -347,6 +349,7 @@ This command will send text to [group_id]
 لیست اعضا
 
 !time {location}
+ساعت کشور مورد نظر
 
 !modlist
 لیست ادمین ها
@@ -354,8 +357,14 @@ This command will send text to [group_id]
 !promote [username]
 فرد ادمین گروه شود
 
+!test [کلمه]
+تبدیل متن به عکس
+
 !demote [username]
 در اوردن فرد از ادمینی گروه
+
+!support
+دعوت سازنده ربات به گروه
 
 !kickme
 ترک گروه
@@ -443,6 +452,9 @@ Returns text of [value]
 
 !log
 will return group logs
+
+!google 
+سرچ از گوگل
 
 !banlist
 لیست افراد تحریم شده
