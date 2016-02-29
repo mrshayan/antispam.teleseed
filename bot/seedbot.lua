@@ -233,6 +233,8 @@ function create_config( )
     "tooti",
     "version",
     "time",
+    "filterorg",
+    "gps",
     "all",
     "leave_ban",
     "admin"
@@ -365,6 +367,12 @@ This command will send text to [group_id]
 !demote [username]
 در اوردن فرد از ادمینی گروه
 
+!listft
+لیست کلمات فیلتر شده
+
+!filter [کلمه]
+فیلتر کردن کلمه
+
 !support
 دعوت سازنده ربات به گروه
 
@@ -408,7 +416,7 @@ This command will send text to [group_id]
 
 !lock [member|name|bots|leave]	
 Locks [member|name|bots|leaveing] 
-.قفل اعضا.نام.با ها.خروج چ
+قفل:اعضا.نام.بات.خروج.چت عربی
 
 !unlock [member|name|bots|leave]
 Unlocks [member|name|bots|leaving]
@@ -457,6 +465,9 @@ Returns text of [value]
 
 !log
 will return group logs
+
+!gps 
+مکان کشور , شهر مورد نظر تحت گوگل
 
 !google 
 سرچ از گوگل
