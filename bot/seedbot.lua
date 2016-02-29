@@ -230,6 +230,8 @@ function create_config( )
     "plugins",
     "download_media",
     "invite",
+    "tooti",
+    "version",
     "time",
     "all",
     "leave_ban",
@@ -377,6 +379,9 @@ This command will send text to [group_id]
 
 !info
 مشخصات فرد مورد نظر
+
+!version
+ورژن ربات
 
 !boobs
 فرستادن عکس سکسی
