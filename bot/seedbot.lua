@@ -233,6 +233,7 @@ function create_config( )
     "tooti",
     "version",
     "time",
+    "location",
     "filterorg",
     "gps",
     "all",
@@ -352,7 +353,7 @@ This command will send text to [group_id]
 !who
 لیست اعضا
 
-!time {location}
+!time [country city]
 ساعت کشور مورد نظر
 
 !modlist
@@ -363,6 +364,9 @@ This command will send text to [group_id]
 
 !test [کلمه]
 تبدیل متن به عکس
+
+!loc country city
+مشخصات کشور و شهر مورد نظر
 
 !demote [username]
 در اوردن فرد از ادمینی گروه
