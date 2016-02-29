@@ -234,8 +234,6 @@ function create_config( )
     "version",
     "time",
     "location",
-    "filterorg",
-    "gps",
     "all",
     "leave_ban",
     "admin"
@@ -369,13 +367,7 @@ This command will send text to [group_id]
 مشخصات کشور و شهر مورد نظر
 
 !demote [username]
-در اوردن فرد از ادمینی گروه
-
-!listft
-لیست کلمات فیلتر شده
-
-!filter [کلمه]
-فیلتر کردن کلمه
+در اوردن فرد از ادمینی
 
 !support
 دعوت سازنده ربات به گروه
