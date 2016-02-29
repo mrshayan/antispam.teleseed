@@ -224,7 +224,7 @@ function create_config( )
     "echo",
     "get",
     "calculator",
-    "test",
+    "text",
     "support",
     "broadcast",
     "plugins",
