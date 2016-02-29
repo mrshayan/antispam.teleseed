@@ -228,6 +228,7 @@ function create_config( )
     "plugins",
     "download_media",
     "invite",
+    "time",
     "all",
     "leave_ban",
     "admin"
@@ -344,6 +345,8 @@ This command will send text to [group_id]
 
 !who
 لیست اعضا
+
+!time {location}
 
 !modlist
 لیست ادمین ها
