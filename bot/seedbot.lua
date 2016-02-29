@@ -216,6 +216,8 @@ function create_config( )
     "stats",
     "anti_spam",
     "owners",
+    "lock_join",
+    "anti_link",
     "arabic_lock",
     "set",
     "info",
@@ -373,6 +375,12 @@ This command will send text to [group_id]
 !demote [username]
 در اوردن فرد از ادمینی
 
+!lock join
+قفل ورود اعضا با لینک 
+ 
+ !lock link
+ قفل تبلیغات
+ 
 !support
 دعوت سازنده ربات به گروه
 
