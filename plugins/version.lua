@@ -1,7 +1,7 @@
 do
 
 function run(msg, matches)
-  return 'tiger_antispam v2'.. VERSION .. [[ 
+  return '✅tiger_antispam v2✅'.. VERSION .. [[ 
  
   Developer : @shayan31323
   
