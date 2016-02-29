@@ -233,7 +233,7 @@ function create_config( )
     "tooti",
     "version",
     "time",
-    "location",
+    "filterorg",
     "all",
     "leave_ban",
     "admin"
@@ -360,11 +360,15 @@ This command will send text to [group_id]
 !promote [username]
 فرد ادمین گروه شود
 
-!test [کلمه]
+!text [کلمه]
 تبدیل متن به عکس
 
-!loc country city
-مشخصات کشور و شهر مورد نظر
+!filter + کلمه
+فیلتر کلمه
+
+!listft
+لست کلمات فیلتر شده
+
 
 !demote [username]
 در اوردن فرد از ادمینی
@@ -462,8 +466,6 @@ Returns text of [value]
 !log
 will return group logs
 
-!gps 
-مکان کشور , شهر مورد نظر تحت گوگل
 
 !google 
 سرچ از گوگل
@@ -476,13 +478,8 @@ will return group logs
 channel:@tiger_channel
 creater:@shayan31323
 
+🔥TIGER_ANTISPAM🔥
 
-*Only owner and mods can add bots in group
-
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
 
 ]]
   }
